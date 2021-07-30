@@ -1,0 +1,109 @@
+body {
+  display: flex;
+  font-family: inter;
+  background-color:  hsl(233, 47%, 7%);
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.lowerMetric {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position:absolute;
+  display: flex;
+  min-height: 40vh;
+}
+
+.lowerMetric {
+  padding-top: 100px;
+  justify-content: space-around;
+}
+
+.side-text {
+  padding: 30px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(244, 38%, 16%);
+  width: 30vw;
+}
+
+img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.image{
+  position: relative;
+}
+
+.cover {
+  background-color: hsla(277, 64%, 61%, 0.507);
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+} 
+
+div p {
+  font-size: 15;
+}
+
+p{
+  font-size: 11px;
+}
+
+.highlight {
+  color: hsl(277, 64%, 61%);
+}
+
+
+/* TESTING THE NEON GLOW */
+
+/* .test {
+  background-color: #3C6774;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial;
+  min-height: 100vh;
+}
+
+.text{
+  position: relative;
+  font-size: 6em;
+  letter-spacing: 15px;
+  color: #dcfbff;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+  line-height: 0.70em;
+  outline: none;
+  animation: flicker 5s linear infinite;
+}
+
+@keyframes flicker {
+
+  0%,18%,20%,51%,60%,65.1%,80%,90.1%,92%{
+    color: #195B99;
+    text-shadow: none;
+  }
+
+  18.1%,20.1%,30%,50%,60.1%,80.1%,90%,92.1%,100%{
+    color:#fff;
+    text-shadow:0 0 10px #0a5ef8,
+    0 0 20px #0a5ef8,
+    0 0 40px #0a5ef8,
+    0 0 80px #0a5ef8,
+    0 0 160px #0a5ef8;
+  }
+} */
