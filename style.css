@@ -18,7 +18,8 @@ body {
 .container {
   position:absolute;
   display: flex;
-  min-height: 40vh;
+  min-height: 20vh;
+  width: 70vw;
 }
 
 .lowerMetric {
@@ -30,7 +31,8 @@ body {
   padding: 30px;
   color: hsl(0, 0%, 100%);
   background-color: hsl(244, 38%, 16%);
-  width: 30vw;
+  width: 50%;
+  height: 100%;
 }
 
 img {
@@ -42,6 +44,7 @@ img {
 
 .image{
   position: relative;
+  width: 50%;
 }
 
 .cover {
@@ -53,12 +56,12 @@ img {
   z-index: 2;
 } 
 
-div p {
-  font-size: 15;
+h1 {
+  font-size: 2rem;
 }
 
 p{
-  font-size: 11px;
+  font-size: 0.7rem;
 }
 
 .highlight {
